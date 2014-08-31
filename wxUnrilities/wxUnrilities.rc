@@ -1,0 +1,15 @@
+// ============================================================================
+//	wxUnrility.rc
+// ============================================================================
+
+ICO_App				ICON "img/unrility.ico"
+ICO_Log				ICON "img/log.ico"
+
+
+// For obtaining the RGB values of standard colours
+wxBITMAP_STD_COLOURS    BITMAP "img/colours.bmp"
+
+
+//1 24 "wx/msw/wx.manifest"
+
+// ============================================================================

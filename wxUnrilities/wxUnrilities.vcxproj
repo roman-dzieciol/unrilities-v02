@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6DCD6F40-681E-4EB6-B02E-DE603F56E4BE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>Inc;Img;D:\_DEV\Libs\wxWidgets\lib\vc_lib\mswd;D:\_DEV\Reps\wxCode\wxCode\components\treelistctrl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__WXDEBUG__;WINVER=0x0400;wxUSE_GUI=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>prec.h</PrecompiledHeaderFile>
+      <BrowseInformationFile>
+      </BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;wxbase26d.lib;wxmsw26d_adv.lib;wxmsw26d_core.lib;wxregexd.lib;wxtreelistctrld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)wxUnrilities.exe</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>false</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Inc;Img;D:\_DEV\Libs\wxWidgets\lib\vc_lib\msw;D:\_DEV\Reps\wxCode\wxCode\components\treelistctrl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;WINVER=0x0400;wxUSE_GUI=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>prec.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;wxbase26.lib;wxmsw26_adv.lib;wxmsw26_core.lib;wxregex.lib;wxtreelistctrl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)wxUnrilities.exe</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Doc\BUILD.txt" />
+    <None Include="Doc\CHANGES.txt" />
+    <None Include="Doc\LICENSE.txt" />
+    <None Include="Doc\README.txt" />
+    <None Include="Doc\TODO.txt" />
+    <None Include="img\colours.bmp" />
+    <None Include="img\help.xpm" />
+    <None Include="img\log.xpm" />
+    <None Include="img\open.xpm" />
+    <None Include="img\log.ico" />
+    <None Include="img\unrility.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\wxUnrilities.cpp" />
+    <ClCompile Include="Src\prec.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">prec.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Src\tpComparer.cpp" />
+    <ClCompile Include="Src\tpDataSource.cpp" />
+    <ClCompile Include="Src\tpFormatter.cpp" />
+    <ClCompile Include="Src\tpTemplate.cpp" />
+    <ClCompile Include="Src\unDataTree.cpp" />
+    <ClCompile Include="Src\unDataTreeFactories.cpp" />
+    <ClCompile Include="Src\unExpression.cpp" />
+    <ClCompile Include="Src\unFlagManager.cpp" />
+    <ClCompile Include="Src\unTable.cpp" />
+    <ClCompile Include="Src\unTableData.cpp" />
+    <ClCompile Include="Src\unTableHeader.cpp" />
+    <ClCompile Include="Src\unTableIndex.cpp" />
+    <ClCompile Include="Src\unTablePrinter.cpp" />
+    <ClCompile Include="Src\ptExports.cpp" />
+    <ClCompile Include="Src\ptImports.cpp" />
+    <ClCompile Include="Src\pvExports.cpp" />
+    <ClCompile Include="Src\pvImports.cpp" />
+    <ClCompile Include="Src\pvNames.cpp" />
+    <ClCompile Include="Src\pvTables.cpp" />
+    <ClCompile Include="Src\unFilterList.cpp" />
+    <ClCompile Include="Src\unLogToStatus.cpp" />
+    <ClCompile Include="Src\unLogWindow.cpp" />
+    <ClCompile Include="Src\unNotebook.cpp" />
+    <ClCompile Include="Src\unNotebookPage.cpp" />
+    <ClCompile Include="Src\unPackageTree.cpp" />
+    <ClCompile Include="Src\unPackageView.cpp" />
+    <ClCompile Include="Src\unStatusBar.cpp" />
+    <ClCompile Include="Src\unTreeList.cpp" />
+    <ClCompile Include="Src\unVirtualList.cpp" />
+    <ClCompile Include="Src\unException.cpp" />
+    <ClCompile Include="Src\unTime.cpp" />
+    <ClCompile Include="Src\unTree.cpp" />
+    <ClCompile Include="Src\pkgArchive.cpp" />
+    <ClCompile Include="Src\pkgHeader.cpp" />
+    <ClCompile Include="Src\pkgObject.cpp" />
+    <ClCompile Include="Src\pkgSerializer.cpp" />
+    <ClCompile Include="Src\pkgTable.cpp" />
+    <ClCompile Include="Src\pkgTableItem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\wxUnrilities.h" />
+    <ClInclude Include="Inc\prec.h" />
+    <ClInclude Include="Inc\wxIntelliSense.h" />
+    <ClInclude Include="Inc\tpComparer.h" />
+    <ClInclude Include="Inc\tpDataSource.h" />
+    <ClInclude Include="Inc\tpFormatter.h" />
+    <ClInclude Include="Inc\tpTemplate.h" />
+    <ClInclude Include="Inc\unDataTree.h" />
+    <ClInclude Include="Inc\unDataTreeFactories.h" />
+    <ClInclude Include="Inc\unExpression.h" />
+    <ClInclude Include="Inc\unFlagManager.h" />
+    <ClInclude Include="Inc\unTable.h" />
+    <ClInclude Include="Inc\unTableData.h" />
+    <ClInclude Include="Inc\unTableHeader.h" />
+    <ClInclude Include="Inc\unTableIndex.h" />
+    <ClInclude Include="Inc\unTablePrinter.h" />
+    <ClInclude Include="Inc\ptExports.h" />
+    <ClInclude Include="Inc\ptImports.h" />
+    <ClInclude Include="Inc\pvExports.h" />
+    <ClInclude Include="Inc\pvImports.h" />
+    <ClInclude Include="Inc\pvNames.h" />
+    <ClInclude Include="Inc\pvTables.h" />
+    <ClInclude Include="Inc\unFilterList.h" />
+    <ClInclude Include="Inc\unLogToStatus.h" />
+    <ClInclude Include="Inc\unLogWindow.h" />
+    <ClInclude Include="Inc\unNotebook.h" />
+    <ClInclude Include="Inc\unNotebookPage.h" />
+    <ClInclude Include="Inc\unPackageTree.h" />
+    <ClInclude Include="Inc\unPackageView.h" />
+    <ClInclude Include="Inc\unStatusBar.h" />
+    <ClInclude Include="Inc\unTreeList.h" />
+    <ClInclude Include="Inc\unVirtualList.h" />
+    <ClInclude Include="Inc\unException.h" />
+    <ClInclude Include="Inc\unTime.h" />
+    <ClInclude Include="Inc\unTree.h" />
+    <ClInclude Include="Inc\unTypes.h" />
+    <ClInclude Include="Inc\pkgArchive.h" />
+    <ClInclude Include="Inc\pkgHeader.h" />
+    <ClInclude Include="Inc\pkgObject.h" />
+    <ClInclude Include="Inc\pkgSerializer.h" />
+    <ClInclude Include="Inc\pkgTable.h" />
+    <ClInclude Include="Inc\pkgTableItem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wxUnrilities.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{c56bb8e2-ef37-41fb-858d-7f06706109ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6eb10c75-09b6-4a79-8cb2-92e90834acdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\App">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main\Precompiled">
+      <UniqueIdentifier>{cce10124-2034-4bae-8e3f-082a37b566ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{fd2389fd-e635-49c8-a569-a0c1c50c356f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Source">
+      <UniqueIdentifier>{5e5b80c5-fca8-4fcf-ae1f-578b4e8bbac2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Data\Headers">
+      <UniqueIdentifier>{980a4540-5ce1-422b-84bc-6efc7fcc1179}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Widgets">
+      <UniqueIdentifier>{5e50f8a1-3004-45dc-9c94-22eccb7e0e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widgets\Source">
+      <UniqueIdentifier>{e71924d9-0484-443c-8f79-f28938f80c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widgets\Headers">
+      <UniqueIdentifier>{25576b62-2b8f-4cd2-a9f7-a25dcf907e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{1b5beb42-3afc-4bb5-a086-2b70df74e31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Source">
+      <UniqueIdentifier>{1e315059-b059-4549-87a1-c8ab4448b663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Headers">
+      <UniqueIdentifier>{451e03d4-28dd-4ef7-b608-e5858381a95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Package">
+      <UniqueIdentifier>{771323e2-f876-40ba-83a3-0494df4c1173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Package\Source">
+      <UniqueIdentifier>{daecb111-7be3-42c4-b064-8d29b6530d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Package\Headers">
+      <UniqueIdentifier>{6b7f3ab2-7a14-4de5-a52d-16a0086cdc3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{65e06942-2cf3-44f1-8abd-5f977e948432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\BMP">
+      <UniqueIdentifier>{cbe6ebd1-f2a7-475b-8871-a71ceafc9c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\XPM">
+      <UniqueIdentifier>{c99a9a9f-9c75-47e2-876c-e53b0b689b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\ICO">
+      <UniqueIdentifier>{e1f97838-af21-46d8-87a1-ea79d3885a69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc\BUILD.txt">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="Doc\CHANGES.txt">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="Doc\LICENSE.txt">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="Doc\README.txt">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="Doc\TODO.txt">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="img\colours.bmp">
+      <Filter>Images\BMP</Filter>
+    </None>
+    <None Include="img\help.xpm">
+      <Filter>Images\XPM</Filter>
+    </None>
+    <None Include="img\log.xpm">
+      <Filter>Images\XPM</Filter>
+    </None>
+    <None Include="img\open.xpm">
+      <Filter>Images\XPM</Filter>
+    </None>
+    <None Include="img\log.ico">
+      <Filter>Images\ICO</Filter>
+    </None>
+    <None Include="img\unrility.ico">
+      <Filter>Images\ICO</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\wxUnrilities.cpp">
+      <Filter>Main\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\prec.cpp">
+      <Filter>Main\Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\tpComparer.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\tpDataSource.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\tpFormatter.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\tpTemplate.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unDataTree.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unDataTreeFactories.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unExpression.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unFlagManager.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unTable.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unTableData.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unTableHeader.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unTableIndex.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unTablePrinter.cpp">
+      <Filter>Data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ptExports.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ptImports.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pvExports.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pvImports.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pvNames.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pvTables.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unFilterList.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unLogToStatus.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unLogWindow.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unNotebook.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unNotebookPage.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unPackageTree.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unPackageView.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unStatusBar.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unTreeList.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unVirtualList.cpp">
+      <Filter>Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unException.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unTime.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\unTree.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pkgArchive.cpp">
+      <Filter>Package\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pkgHeader.cpp">
+      <Filter>Package\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pkgObject.cpp">
+      <Filter>Package\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pkgSerializer.cpp">
+      <Filter>Package\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pkgTable.cpp">
+      <Filter>Package\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pkgTableItem.cpp">
+      <Filter>Package\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\wxUnrilities.h">
+      <Filter>Main\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\prec.h">
+      <Filter>Main\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\wxIntelliSense.h">
+      <Filter>Main\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\tpComparer.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\tpDataSource.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\tpFormatter.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\tpTemplate.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unDataTree.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unDataTreeFactories.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unExpression.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unFlagManager.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unTable.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unTableData.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unTableHeader.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unTableIndex.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unTablePrinter.h">
+      <Filter>Data\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ptExports.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ptImports.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pvExports.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pvImports.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pvNames.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pvTables.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unFilterList.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unLogToStatus.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unLogWindow.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unNotebook.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unNotebookPage.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unPackageTree.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unPackageView.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unStatusBar.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unTreeList.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unVirtualList.h">
+      <Filter>Widgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unException.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unTime.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unTree.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\unTypes.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pkgArchive.h">
+      <Filter>Package\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pkgHeader.h">
+      <Filter>Package\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pkgObject.h">
+      <Filter>Package\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pkgSerializer.h">
+      <Filter>Package\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pkgTable.h">
+      <Filter>Package\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\pkgTableItem.h">
+      <Filter>Package\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wxUnrilities.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

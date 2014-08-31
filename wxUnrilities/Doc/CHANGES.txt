@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+                             Unrilities ChangeLog
+-------------------------------------------------------------------------------
+
+
+0.3 - 
+-------------------------------------------------------------------------------
+- Root class names in Import/Export Trees are displayed with full package path.
+
+
+0.2 - TreeLists
+-------------------------------------------------------------------------------
+- Replaced RegEx in some flat list column filters with numerical expressions.
+- Added tree list preview for Import and Export tables.
+- Added flat list preview for package tables.
+
+
+0.1 - First release
+-------------------------------------------------------------------------------
+- Name, Export and Import package tables displayed in flat lists.
+- Regular expression filters for each flat list column.
+- Stable flat list sorting.
+
+
+-------------------------------------------------------------------------------

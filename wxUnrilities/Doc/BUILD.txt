@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+                             Unrilities Build Info
+-------------------------------------------------------------------------------
+  
+
+Dependencies
+-------------------------------------------------------------------------------
+
+* STL library
+  * Many Unrilities structures do rely on STL containers, wxWidgets does not.
+
+* wxWidgets library
+  * See \Vendor\wxWidgets\wxWidgets.txt
+
+* wxTreeListCtrl widget
+  * See \Vendor\wxTreeListCtrl\wxTreeListCtrl.txt
+
+
+-------------------------------------------------------------------------------
